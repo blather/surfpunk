@@ -12,11 +12,11 @@ provider "aws" {
   profile                 = "jimmi"
 }
 
-resource "aws_vpc" "ssm-test" {
+resource "aws_vpc" "surf-punk" {
   cidr_block = "10.0.1.0/24"
 
   tags = {
-    Name = "surf-punk"
+    Name = "surf-punk-afk"
   }
 }
 
