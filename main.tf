@@ -1,13 +1,13 @@
 terraform {
-   required_version = "~> 0.12"
-   required_providers {
-     local = "~> 1.2"
-     aws = "2.38"
-   }   
- }
-  
+  required_version = "~> 0.12"
+  required_providers {
+    local = "~> 1.2"
+    aws   = "2.38"
+  }
+}
+
 provider "aws" {
-  region = "us-west-2"
+  region                  = "us-west-2"
   shared_credentials_file = "~/.aws/credentials"
   profile                 = "jimmi"
 }
