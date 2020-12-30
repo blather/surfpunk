@@ -9,7 +9,7 @@ terraform {
 provider "aws" {
   region                  = "us-west-2"
   shared_credentials_file = "~/.aws/credentials"
-  profile                 = "jimmi"
+  profile                 = "default"
 }
 
 resource "aws_vpc" "surf-punk" {
